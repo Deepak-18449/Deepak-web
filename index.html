@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY wed side</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .gride-conter{
+            display: grid;
+            grid-auto-flow: column;
+        }
+        a:hover{
+            background-color: deeppink;
+            color: whitesmoke;
+        }
+        .home{
+            font-size: 200%;
+            margin-top: 10%;
+            font-family: 'Brush Script MT', cursive;
+        }
+        .about{
+            font-size: 200%;
+            margin-top: 10%;
+            font-family: 'Brush Script MT', cursive;
+        }
+        a{
+            color: black;
+            text-align: center;
+        }
+        .contact{
+            font-size: 200%;
+            margin-top: 10%;
+            font-family: 'Brush Script MT', cursive;
+        }
+        .my{
+            position: absolute;
+            left:10% ;
+            top: 30%;
+            z-index: -1;
+        } 
+        .home1 > h1{
+            text-align: center;
+            top: 10px;
+            margin-top: 5%;
+        } 
+        .home1 > p{
+            text-align: center;
+            margin-left: 33%;
+            margin-right: 33%;
+            font-size: 162%;
+            font-style: italic;
+            font-display: bold;
+        }      
+        .home1 > p:hover{
+            color: deeppink;
+            background-image: url("./download.png");
+        }
+        .about1 > h2{
+            text-align:left;
+            top: 10px;
+            margin-top: 4%;
+        } 
+        .about1 > i{
+            font-size: 200%;
+        }
+        .cooking{
+            border: 10px solid black;
+            background-color: lightgray;
+            margin-right: 10%;
+        }
+        .cooking > p{
+            text-align: center;
+            font-size: 130%;
+        }
+        .video{
+            border: 10px solid black;
+            background-color: lightgray;
+            margin-right: 20%;
+        }
+        .video > p{
+            text-align: center;
+            font-size: 130%;
+        }
+        .photo{
+            border: 10px solid black;
+            background-color: lightgray;
+            margin-right: 30%;
+        }
+        .photo > p{
+            text-align: center;
+            font-size: 130%;
+        }
+        .web{
+            border: 10px solid black;
+            background-color: lightgray;
+            margin-right: 40%;
+        }
+        .web > p{
+            text-align: center;
+            font-size: 130%;
+        }
+        .contact1{
+            display: flex;
+            flex-flow: column;
+            text-align: center;
+        }
+        .map{
+            font-size: 200%;
+            margin-top: 4%;
+            font-family: 'Brush Script MT', cursive;
+        }
+        .gmail{
+            font-size: 200%;
+            margin-top: 4%;
+            font-family: 'Brush Script MT', cursive;
+        }
+        .instagram{
+            font-size: 200%;
+            margin-top: 4%;
+            font-family: 'Brush Script MT', cursive;
+        }
+        .ty{
+            border: 10px dotted deeppink;
+            background-color: black;
+        }
+        .ty > marquee > p{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 200%;
+            color: deeppink;
+        }
+    </style>
+</head>
+<body>
+    <div class="gride-conter">
+        <img class="img" src="./images.png" alt="">
+        <span class="home"><a href="#HOME"><i class="fa fa-paw" aria-hidden="true"></i>HOME</a></span>
+        <span class="about"><a href="#ABOUT"><i class="fa fa-paw" aria-hidden="true"></i>ABOUT ME</a></span>
+        <span class="contact"><a href="#CONTACT"><i class="fa fa-paw" aria-hidden="true"></i>CONTACT</a></span>
+    </div>
+    <!--home-->
+    <div class="home1">
+        <h1>DEEPAK ASWANI</h1>
+        <img class="my" src="./unnamed.jpg" alt="">
+        <p>Welcome to my web side Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga adipisci nesciunt maiores distinctio optio magnam accusantium dignissimos ipsam facere ea, inventore ratione itaque corrupti accusamus aperiam obcaecati, harum minima officia.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aperiam voluptates.</p>
+        <br><br>
+    </div>
+     <!--about-->
+     <div class="about1">
+        <center><h1>ABOUT ME</h1></center>
+        <h2>I AM REALLY GOOD AT :</h2>
+        <i class="fa fa-cutlery" aria-hidden="true"> cooking</i>
+        <div class="cooking">
+            <p>90%</p>
+        </div>
+        <i class="fa fa-video-camera" aria-hidden="true"> Video Edeting</i>
+        <div class="video">
+            <p>80%</p>
+        </div>
+        <i class="fa fa-camera" aria-hidden="true"> Photography</i>
+        <div class="photo">
+            <p>60%</p>
+        </div>
+        <i class="fa fa-laptop" aria-hidden="true"> website design</i>
+        <div class="web">
+            <p>40%</p>
+        </div>
+     </div><br><br>
+     <!--contact-->
+     <center><h1>CONTACT</h1></center>
+     <div class="contact1 ">
+        <span class="map"><a href="https://www.google.com/search?gs_ssp=eJzj4tTP1TcwSy8yKDFg9BJMysjMKU8sSlTIyU9OLMnMzwMAjiwKEQ&q=bhilwara+location&rlz=1C1VDKB_enIN1009IN1009&oq=BHIL&aqs=chrome.1.69i59j46i67i650j69i57j0i67i650j0i67i433i650j0i131i433i512j0i67i650l2j0i131i433i512.3588j0j15&sourceid=chrome&ie=UTF-8"><i class="fa fa-map-marker" aria-hidden="true"> Location =</i>  BHILWARA</a></span>
+        <span class="gmail"><a href="https://support.google.com/mail/answer/8494?hl=en&co=GENIE.Platform%3DDesktop"><i class="fa fa-envelope" aria-hidden="true"> Gmail =</i> deepakaswani@gmail.com</a></span>
+        <span class="instagram"><a href="https://instagram.com/deepak.aswani.1401?igshid=ZDc4ODBmNjlmNQ=="><i class="fa fa-instagram" aria-hidden="true"> Instagram =</i> deepak.aswani.1401</a></span>
+    </div><br><br>
+    <div class="ty">
+        <marquee behavior="up" direction="down"><p> THANK YOU</p></marquee>
+    </div>
+</body>
+</html>
